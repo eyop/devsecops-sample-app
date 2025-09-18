@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log
+coverage/
+.env
+
+# Docker
+*.log
+*.pid
+*.seed
+*.tgz
+*.swp
