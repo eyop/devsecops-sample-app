@@ -1,7 +1,3 @@
-Got it 👍 — let’s expand the `README.md` into **proper documentation** that explains every part of the project: what it does, why it matters for DevSecOps, and how to run/use/extend it.
-
-Here’s a polished version:
-
 ---
 
 # 🚀 DevSecOps Sample App
@@ -220,7 +216,3 @@ Recommended GitHub branch rules:
 MIT — free to use, learn, and extend.
 
 ---
-
-👉 With this README, any developer (or recruiter 😉) can understand **what your project does, why it matters, and how to use it**.
-
-Would you like me to also create a **diagram (visual workflow)** that shows the CI/CD + security flow (dev → test → scan → build → deploy)?
