@@ -1,7 +1,3 @@
-Got it 👍 — let’s expand the `README.md` into **proper documentation** that explains every part of the project: what it does, why it matters for DevSecOps, and how to run/use/extend it.
-
-Here’s a polished version:
-
 ---
 
 # 🚀 DevSecOps Sample App
