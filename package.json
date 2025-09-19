@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "jest --coverage",
-    "lint": "eslint . --ext .js",
+    "lint": "eslint .",
     "build": "echo \"no build step\""
   },
   "dependencies": {
