@@ -31,7 +31,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build & push image to GHCR
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           context: .
           push: true
@@ -40,4 +40,4 @@ jobs:
       - name: Scan image with Trivy
         run: |
           docker pull ghcr.io/${{ github.repository_owner }}/devsecops-sample-app:latest
-          docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasecurity/trivy:latest image --severity HIGH,CRITICAL ghcr.io/${{ github.repository_owner }}/devsecops-sample-app:latest
+          docker run --rm -v /var/run/docker.sock:/var/run/docker.sock aquasec/trivy:latest image --severity HIGH,CRITICAL ghcr.io/${{ github.repository_owner }}/devsecops-sample-app:latest
