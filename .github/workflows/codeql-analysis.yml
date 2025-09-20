@@ -8,11 +8,6 @@ on:
   schedule:
     - cron: '0 2 * * *' # nightly
 
-permissions:
-  actions: read
-  contents: read
-  security-events: write
-
 jobs:
   analyze:
     runs-on: ubuntu-latest
