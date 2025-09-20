@@ -211,8 +211,4 @@ Recommended GitHub branch rules:
 
 ---
 
-## 📜 License
 
-MIT — free to use, learn, and extend.
-
----
